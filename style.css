@@ -331,9 +331,11 @@ h1 {
 
 /* CELULAR */
 
-@media (max-width: 700px) {
+/* CELULAR */
+
+@media (max-width: 800px) {
   html {
-    scroll-padding-top: 20px;
+    scroll-padding-top: 0;
   }
 
   .topo {
@@ -342,29 +344,30 @@ h1 {
 
   .menu {
     height: auto;
-    padding: 10px 0 8px;
+    padding: 4px 0 6px;
     flex-direction: column;
-    gap: 8px;
+    gap: 4px;
   }
 
   .logo {
-    height: 72px;
+    height: 55px;
     width: auto;
   }
 
   nav {
     width: 100%;
-    flex-wrap: nowrap;
+    display: flex;
     justify-content: center;
-    gap: 14px;
+    flex-wrap: nowrap;
+    gap: 12px;
   }
 
   nav a {
-    font-size: 14px;
+    font-size: 13px;
   }
 
   .hero {
-    padding: 42px 0 54px;
+    padding: 28px 0 46px;
   }
 
   .hero-conteudo,
@@ -374,20 +377,22 @@ h1 {
   }
 
   .tag {
-    font-size: 12px;
+    font-size: 11px;
   }
 
   h1 {
-    font-size: 34px;
+    font-size: 30px;
     line-height: 1.15;
+    margin: 12px 0;
   }
 
   .hero-texto p {
-    font-size: 17px;
+    font-size: 16px;
   }
 
   .botoes {
     flex-direction: column;
+    gap: 14px;
   }
 
   .botao {
@@ -396,17 +401,17 @@ h1 {
   }
 
   .hero-card {
-    margin-top: 24px;
-    padding: 28px;
+    margin-top: 22px;
+    padding: 24px;
   }
 
   .secao {
-    padding: 56px 0;
+    padding: 50px 0;
   }
 
   .secao h2,
   .chamada h2 {
-    font-size: 30px;
+    font-size: 28px;
   }
 
   .rodape-conteudo {
