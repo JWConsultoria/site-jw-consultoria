@@ -344,13 +344,13 @@ h1 {
 
   .menu {
     height: auto;
-    padding: 4px 0 6px;
+    padding: 6px 0 8px;
     flex-direction: column;
-    gap: 4px;
+    gap: 6px;
   }
 
   .logo {
-    height: 55px;
+    height: 75px;
     width: auto;
   }
 
