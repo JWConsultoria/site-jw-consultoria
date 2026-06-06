@@ -364,6 +364,44 @@ h1 {
   color: var(--dourado);
 }
 
+.pagina-texto {
+  background: var(--branco);
+}
+
+.pagina-texto h1 {
+  color: var(--azul);
+  font-size: 42px;
+  margin-bottom: 24px;
+}
+
+.pagina-texto h2 {
+  color: var(--azul);
+  font-size: 24px;
+  margin-top: 30px;
+  margin-bottom: 10px;
+}
+
+.pagina-texto p {
+  max-width: 880px;
+  color: #555;
+  margin-bottom: 14px;
+}
+
+.pagina-texto a {
+  color: var(--azul);
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.pagina-texto a:hover {
+  color: var(--dourado);
+}
+
+.data-politica {
+  margin-top: 34px;
+  font-weight: 700;
+}
+
 /* CELULAR */
 
 @media (max-width: 800px) {
@@ -458,5 +496,13 @@ h1 {
     width: 62px;
     height: 62px;
     font-size: 38px;
-  }  
+  }
+
+  .pagina-texto h1 {
+    font-size: 32px;
+  }
+
+  .pagina-texto h2 {
+    font-size: 22px;
+  }
 }
