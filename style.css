@@ -350,9 +350,14 @@ h1 {
   transform: translateY(-2px);
 }
 
-.rodape a {
+.rodape a,
+.rodape a:visited {
   color: #e8e8e8;
   text-decoration: none;
+}
+
+.rodape a:hover {
+  color: var(--dourado);
 }
 
 .rodape a:hover {
