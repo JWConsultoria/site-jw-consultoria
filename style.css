@@ -350,6 +350,15 @@ h1 {
   transform: translateY(-2px);
 }
 
+.rodape a {
+  color: #e8e8e8;
+  text-decoration: none;
+}
+
+.rodape a:hover {
+  color: var(--dourado);
+}
+
 /* CELULAR */
 
 @media (max-width: 800px) {
